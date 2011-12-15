@@ -1,0 +1,133 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=wmbubble) (class=wmbubble)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{958 534}
+  [Sticky]	{yes}
+  [Layer]	{6}
+  [Close]	{yes}
+[end]
+[app] (name=Qt-subapplication) (class=VirtualBox)
+  [Workspace]	{6}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-159948824)
+  [Workspace]	{3}
+[end]
+[app] (name=skype) (class=Skype) (role=MainWindow)
+  [Workspace]	{3}
+  [Jump]	{yes}
+[end]
+[app] (name=empathy) (class=Empathy) (role=contact_list)
+  [Workspace]	{2}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-164278296)
+  [Workspace]	{3}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-171204712)
+  [Workspace]	{3}
+[end]
+[app] (name=skype) (class=Skype) (role=Chats)
+  [Workspace]	{3}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=VCLSalFrame.DocumentWindow) (class=LibreOffice 3.3)
+  [Workspace]	{5}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=VCLSalFrame.DocumentWindow) (class=libreoffice-startcenter)
+  [Workspace]	{5}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-171061272)
+  [Workspace]	{3}
+  [Jump]	{yes}
+[end]
+[app] (name=sun-awt-X11-XFramePeer) (class=jd-Main)
+  [Workspace]	{8}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=xfe) (class=Xfe)
+  [Workspace]	{2}
+  [Jump]	{yes}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Workspace]	{0}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[transient] (name=sun-awt-X11-XDialogPeer) (class=jd-Main)
+  [Sticky]	{yes}
+  [Layer]	{6}
+[end]
+[app] (name=google-chrome) (class=Google-chrome)
+  [Workspace]	{0}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-164692024)
+  [Workspace]	{4}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-143388728)
+  [Workspace]	{4}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=empathy) (class=Empathy) (role=chat)
+  [Workspace]	{3}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=xv) (class=MPlayer)
+  [Workspace]	{1}
+  [Sticky]	{no}
+  [Layer]	{2}
+  [Close]	{yes}
+[end]
+[app] (name=xchat) (class=Xchat)
+  [Workspace]	{3}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-149733432)
+  [Workspace]	{4}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-174796856)
+  [Workspace]	{4}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-154714168)
+  [Workspace]	{4}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-171487288)
+  [Workspace]	{4}
+  [Jump]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-173510680)
+  [Workspace]	{4}
+  [Jump]	{yes}
+[end]
+[app] (name=terminator) (class=Terminator)
+  [Workspace]	{1}
+  [Jump]	{yes}
+[end]
+[app] (name=VCLSalFrame) (class=libreoffice-writer)
+  [Workspace]	{5}
+  [Jump]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-144658456)
+  [Workspace]	{4}
+  [Jump]	{yes}
+[end]
