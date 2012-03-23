@@ -59,7 +59,7 @@
   [Jump]	{yes}
 [end]
 [app] (name=Navigator) (class=Firefox) (role=browser)
-  [Workspace]	{0}
+  [Workspace]	{1}
   [Jump]	{yes}
   [Close]	{yes}
 [end]
@@ -128,6 +128,10 @@
   [Jump]	{yes}
 [end]
 [app] (name=evolution) (class=Evolution) (role=EShellWindow-144658456)
+  [Workspace]	{4}
+  [Jump]	{yes}
+[end]
+[app] (name=evolution) (class=Evolution) (role=EShellWindow-157782072)
   [Workspace]	{4}
   [Jump]	{yes}
 [end]

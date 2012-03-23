@@ -102,21 +102,17 @@ Control Shift j :ExecCommand sh /home/s/Escritorio/bin/netbeans-7.0/bin/netbeans
 
 Control Shift b :ExecCommand VirtualBox
 
-Control Shift 1 :ExecCommand aterm -tr +sb -fg green -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-9-16
+Control Shift 1 :ExecCommand urxvt +sb -sr -tr -fg Chartreuse -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
+Control Shift 2 :ExecCommand urxvt +sb -sr -tr -fg LightGreen -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
+Control Shift 3 :ExecCommand urxvt +sb -sr -tr -fg NavajoWhite -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
+Control Shift 4 :ExecCommand urxvt +sb -sr -tr -fg yellow -bg black -cr blue -tint white -sh 100 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
+Control Shift 5 :ExecCommand urxvt +sb -sr -tr -fg green -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-Control Shift 2 :ExecCommand aterm -tr +sb -fg Chartreuse -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-9-16
-
-Control Shift 3 :ExecCommand urxvt +sb -sr -tr -fg Chartreuse -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
-
-Control Shift 4 :ExecCommand urxvt +sb -sr -tr -fg LightGreen -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
-
-Control Shift 5 :ExecCommand aterm -tr +sb -fg Chartreuse -tint gray -sh 00 -geometry 89x22 -fn terminus-iso8859-9-16
-
-Control Shift 6 :ExecCommand urxvt +sb -sr -tr -fg NavajoWhite -bg black -cr blue -tint white -sh 50 -fn 9x15 -g 70x25 -name tn3270 -fn -misc-*-*-*-*-*-*-*-*-*-*-*-*-*
-
+Control Shift 6 :ExecCommand aterm -tr +sb -fg Chartreuse -tint gray -sh 00 -geometry 89x22 -fn terminus-iso8859-9-16
 Control Shift 7 :ExecCommand aterm -tr +sb -fg yellow -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-2-bold-14
-
 Control Shift 8 :ExecCommand aterm -tr +sb -fg yellow -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-9-16
+Control Shift 9 :ExecCommand aterm -tr +sb -fg green -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-9-16
+#Control Shift 8 :ExecCommand aterm -tr +sb -fg Chartreuse -tint gray -sh 60 -geometry 89x22 -fn terminus-iso8859-9-16
 
 
 

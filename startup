@@ -21,6 +21,12 @@ skype &
 wmnd -i eth2 &
 wmnd -i eth3 &
 kteatime &
+
+#http://askubuntu.com/questions/37954/detect-internet-connection
+wmnetmon -t 10 -y 2 -r 2 &
+
+#wally &
+
 #wmnd -i wlan0 &
 #wmbattery &
 #wmcube &
@@ -38,6 +44,7 @@ fbsetbg -l
 #xfe &
 
 wmmon &
+diodon &
 
 #cpu
 wmtop &
