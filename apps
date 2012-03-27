@@ -135,3 +135,6 @@
   [Workspace]	{4}
   [Jump]	{yes}
 [end]
+[app] (name=SpringSource Tool Suite) (class=SpringSource Tool Suite)
+  [Workspace]	{2}
+[end]

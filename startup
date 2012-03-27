@@ -19,7 +19,7 @@ skype &
 #wmbubble &
 #wmmatrix &
 wmnd -i eth2 &
-wmnd -i eth3 &
+wmnd -i eth4 &
 kteatime &
 
 #http://askubuntu.com/questions/37954/detect-internet-connection
