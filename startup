@@ -15,11 +15,11 @@ xrdb -load ~/.Xdefaults
 # wmsmixer -w &
 # idesk &
 #conky &
-skype &
+skypetab-ng &
 #wmbubble &
 #wmmatrix &
-wmnd -i eth2 &
-wmnd -i eth4 &
+wmnd -i eth0 &
+wmnd -i eth1 &
 kteatime &
 
 #http://askubuntu.com/questions/37954/detect-internet-connection
@@ -62,11 +62,13 @@ wmifinfo &
 
 dropbox start &
 
-terminator &
+#terminator &
 
-google-chrome &
+#google-chrome &
 
-evolution &
+#evolution &
+
+nuvola-player &
 
 exec fluxbox
 # or if you want to keep a log:

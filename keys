@@ -1,8 +1,36 @@
-! fluxbox-update_configs added '(workspace=[current])' to (Next|Prev)(Window|Group)
-! check lines marked by 'FBCV13' if they are correctly updated
-!mouse actions added by fluxbox-update_configs
+# fluxbox-update_configs added '(workspace=[current])' to (Next|Prev)(Window|Group)
+# check lines marked by 'FBCV13' if they are correctly updated
+#mouse actions added by fluxbox-update_configs
 OnTitlebar Mouse1 :MacroCmd {Focus} {Raise} {ActivateTab}
-!mouse actions added by fluxbox-update_configs
+#mouse actions added by fluxbox-update_configs
+OnTitlebar Move1 :StartMoving
+OnLeftGrip Move1 :StartResizing bottomleft
+OnRightGrip Move1 :StartResizing bottomright
+OnWindowBorder Move1 :StartMoving
+
+#mouse actions added by fluxbox-update_configs
+OnTitlebar Mouse2 :StartTabbing
+
+#mouse actions added by fluxbox-update_configs
+OnTitlebar Double Mouse1 :Shade
+OnTitlebar Mouse3 :WindowMenu
+
+#mouse actions added by fluxbox-update_configs
+OnWindow Mod1 Mouse1 :MacroCmd {Raise} {Focus} {StartMoving}
+OnWindow Mod1 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing BottomRight}
+
+#mouse actions added by fluxbox-update_configs
+OnDesktop Mouse1 :HideMenus
+OnDesktop Mouse2 :WorkspaceMenu
+OnDesktop Mouse3 :RootMenu
+OnDesktop Mouse4 :NextWorkspace
+OnDesktop Mouse5 :PrevWorkspace
+
+# fluxbox-update_configs added '(workspace=[current])' to (Next|Prev)(Window|Group)
+# check lines marked by 'FBCV13' if they are correctly updated
+#mouse actions added by fluxbox-update_configs
+OnTitlebar Mouse1 :MacroCmd {Focus} {Raise} {ActivateTab}
+#mouse actions added by fluxbox-update_configs
 OnTitlebar Move1 :StartMoving
 OnLeftGrip Move1 :StartResizing bottomleft
 OnRightGrip Move1 :StartResizing bottomright
@@ -75,8 +103,8 @@ OnDesktop Mouse2 :WorkspaceMenu
 OnDesktop Mouse3 :RootMenu OnDesktop
 OnDesktop Mouse4 :NextWorkspace OnDesktop
 OnDesktop Mouse5 :PrevWorkspace
-Mod1 Tab :NextWindow (workspace=[current]) !! FBCV13 !!
-Mod1 Shift Tab :PrevWindow (workspace=[current]) !! FBCV13 !!
+Mod1 Tab :NextWindow (workspace=[current]) (workspace=[current]) ## FBCV13 ## ## FBCV13 ##
+Mod1 Shift Tab :PrevWindow (workspace=[current]) (workspace=[current]) ## FBCV13 ## ## FBCV13 ##
 Mod1 F1 :Workspace 1
 Mod1 F2 :Workspace 2
 Mod1 F3 :Workspace 3
@@ -97,6 +125,7 @@ Control Shift g :ExecCommand gqview /home/s/Desktop/mochila/fondos
 #Control Shift n :ExecCommand nautilus --no-desktop
 #Control Shift n :ExecCommand xfe
 Control Shift n :ExecCommand gnome-commander
+Control Shift m :ExecCommand tuxcmd
 
 Control Shift o :ExecCommand soffice
 Control Shift j :ExecCommand sh /home/s/Escritorio/bin/netbeans-7.0/bin/netbeans
@@ -121,6 +150,11 @@ Control Shift 9 :ExecCommand aterm -tr +sb -fg green -tint gray -sh 60 -geometry
 
 Control Shift t :ExecCommand terminator
 Control Shift y :ExecCommand gnome-terminal
+Control Shift e :ExecCommand /home/salonso/verecloud/eclipse-3.6-32bits-verecloud/eclipse
+
+
+
+
 
 
 
