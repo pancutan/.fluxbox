@@ -11,28 +11,38 @@ xrdb -load ~/.Xdefaults
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
 # unclutter -idle 2 &
+
 # wmnd &
+
+
+
 # wmsmixer -w &
 # idesk &
-#conky &
+conky &
 skypetab-ng &
 #wmbubble &
 #wmmatrix &
 wmnd -i eth0 &
-wmnd -i eth1 &
+wmnd -i wlan0 &
 kteatime &
-
+gnome-sound-applet &
 #http://askubuntu.com/questions/37954/detect-internet-connection
 wmnetmon -t 10 -y 2 -r 2 &
 
 #wally &
 
 #wmnd -i wlan0 &
-#wmbattery &
+wmbattery &
 #wmcube &
 #wmspaceweather &
 #avant-window-navigator &
+
+
+#Si usa wicd
 #wicd-client &
+
+#O si usa network-admin
+nm-applet &
 
 #consolas: acordarse que la consolas cambian (y mejran) si hay algun gtk levantado como gnome-panel. gnome-terinal creo que mantiene los valores despues de que gnome-panel se cierra
 #terminator &
@@ -69,6 +79,7 @@ dropbox start &
 #evolution &
 
 nuvola-player &
+xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
 
 exec fluxbox
 # or if you want to keep a log:

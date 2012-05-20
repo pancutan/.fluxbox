@@ -124,7 +124,8 @@ Control Shift g :ExecCommand gqview /home/s/Desktop/mochila/fondos
 
 #Control Shift n :ExecCommand nautilus --no-desktop
 #Control Shift n :ExecCommand xfe
-Control Shift n :ExecCommand gnome-commander
+Control Shift n :ExecCommand mucommander
+Control Shift ñ :ExecCommand gnome-commander
 Control Shift m :ExecCommand tuxcmd
 
 Control Shift o :ExecCommand soffice
